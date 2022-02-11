@@ -18,13 +18,13 @@ function Tecnologies() {
     <Box title="Tecnologias">
       <Container>
         <Tecnology name="JavaScript" image={js} />
-        <Tecnology name="Python" image={python} />
         <Tecnology name="Reactjs" image={react} />
+        <Tecnology name="Python" image={python} />
         <Tecnology name="HTML" image={html} />
-        <Tecnology name="CSS" image={css} />
-        <Tecnology name="Django" image={django} />
-        <Tecnology name="Java" image={java} />
         <Tecnology name="Nodejs" image={javascript} />
+        <Tecnology name="Django" image={django} />
+        <Tecnology name="CSS" image={css} />
+        <Tecnology name="Java" image={java} />
         <Tecnology name="SQL" image={database} />
       </Container>
     </Box>

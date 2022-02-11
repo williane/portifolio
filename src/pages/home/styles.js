@@ -6,6 +6,7 @@ export const Container = styled.main`
 
   width: 100%;
   max-width: 1440px;
+  min-width: 1368px;
   height: calc(100vh - 7rem);
 
   margin: 0 auto;
