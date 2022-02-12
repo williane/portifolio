@@ -9,7 +9,7 @@ export const Container = styled.div`
   opacity: 0.9;
 
   width: 100%;
-  height: 16rem;
+  height: ${(props) => props.height || "16rem"};
 
   margin-top: 1rem;
 

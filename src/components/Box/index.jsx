@@ -1,8 +1,8 @@
 import { Container } from "./styles";
 
-function Box({ title, children }) {
+function Box({ title, children, height }) {
   return (
-    <Container>
+    <Container height={height}>
       <strong>{title}</strong>
       {children}
     </Container>
